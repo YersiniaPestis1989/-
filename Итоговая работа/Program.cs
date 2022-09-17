@@ -12,7 +12,7 @@ int count = 0;
     }
 Console.WriteLine("Чисел в массиве, удовлетворяющих условию, всего: " + count);
 string[] massive2 = new string[count];
-SecondArrayWithIF(massive, massive2);
+FillSecondArrayWithIF(massive, massive2);
 PrintArray(massive2);
 void FillArray(string[] array)
             {
@@ -31,7 +31,7 @@ void PrintArray(string[] array)
                 }
                 Console.WriteLine();
             }
-void SecondArrayWithIF(string[] array1, string[] array2)
+void FillSecondArrayWithIF(string[] array1, string[] array2)
 {
     int count = 0;
     for (int i = 0; i < array1.Length; i++)
